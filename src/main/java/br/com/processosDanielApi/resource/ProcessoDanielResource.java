@@ -52,7 +52,7 @@ public class ProcessoDanielResource extends BaseResource<ProcessoDaniel, Integer
 		try {
 
 			
-			return new ResponseEntity<>(serviceProcessoDaniel.findByNumeroPublicacaoAndRequerentesContaining(numero,requerentes), HttpStatus.OK);
+			return new ResponseEntity<>(serviceProcessoDaniel.findByNumeroPublicacaoAndRequerentesContaining(numero,requerentes.toUpperCase()), HttpStatus.OK);
 			
 		} catch (Exception e) {
 			e.printStackTrace();
