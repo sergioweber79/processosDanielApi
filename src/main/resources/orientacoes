@@ -7,8 +7,9 @@ Eclipse Oxygen.2 Release (4.7.2)
 
 Tomcat 9.0
 
-SOAPUI - para teste dos servicos
+PostgreSQL
 
+SOAPUI - para teste dos servicos
 
 application.properties - possui as configuracoe de banco, spring e hibernate
 

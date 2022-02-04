@@ -180,7 +180,7 @@ public class ProcessoWIPOServiceImpl implements BaseService<ProcessoWIPO, Intege
 	   public String tratarNroPublicacao(String campo) {
 		   if (campo==null ) return "";
 		   
-		   return campo.substring(campo.length()-14, campo.length());
+		   return campo.substring(campo.length()-14, campo.length()).replaceAll("\\/", "");
 	   }
 	   
 	   public String tratarDtPublicacao(String campo) {
