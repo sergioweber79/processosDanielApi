@@ -1,0 +1,31 @@
+
+Linux Ubuntu 16
+
+Java 1.8
+
+Eclipse Oxygen.2 Release (4.7.2)
+
+Tomcat 9.0
+
+SOAPUI - para teste dos servicos
+
+
+application.properties - possui as configuracoe de banco, spring e hibernate
+
+Segurança desabilitada - Comentado regras de autenticação via token JKT e servico de login para acesso aos resources
+
+
+Camadas:
+
+Resource (br.com.processosDanielApi.resource) - publicacao dos servicos
+Servicce (br.com.processosDanielApi.service) - negocio
+Repository (br.com.processosDanielApi.repository) - acesso aos banco de dados
+Dominio (br.com.processosDanielApi.dominio) - mapeamento objeto relacional das entidades (hibernate)
+Seguranca (br.com.processosDanielApi.security) - classes responsavel pela seguranca, permissoes e credenciais
+Utils (br.com.processosDanielApi.utils) - validação, conversao e outras
+
+
+Testes - (br.com.processosDanielApi.test) - Classe JUnit de testes 
+
+
+
