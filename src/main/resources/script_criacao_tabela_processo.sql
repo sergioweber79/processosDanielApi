@@ -9,7 +9,7 @@ Requerentes:
 Título:
 */
 
-drop table tb_processo if exists;
+drop table tb_processo;
 
 CREATE TABLE tb_processo
 (
